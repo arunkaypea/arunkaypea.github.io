@@ -20,6 +20,8 @@
     .banner{
         padding-left: 10%;
         padding-top: 5%;
+        padding-right: 10%
+
     }
     .navigation{
 
@@ -27,9 +29,13 @@
 
     .navigation a{
         text-decoration: none;
-        color: black;
+        color: rgba(0,0,0,0.5);
         font-size: 12px;
         margin-right: 5%;
+    }
+
+    .navigation a:first-child{
+        color: black;
     }
 
     .navigation a:active{
@@ -63,6 +69,24 @@
         box-shadow: 2px 4px 50px rgba(0,0,0,0.01);
     }
 
+    .case-study:hover{
+        cursor: pointer;
+        
+    }
+
+    .foot{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        padding: 15% 5% 5% 5%;
+        font-size: 12px;
+    }
+
+    .foot span{
+        color: rgba(0,0,0,0.3);
+        margin-top: 10%;
+    }
+
     .case-study-thumbnail{
         width: 60%;
         height: 500px;
@@ -77,10 +101,21 @@
 
     .case-study-info a{
         color: #FF1E2E;
+        transition: 3s ease;
+    }
+
+    .case-study-info svg{
+        position: relative;
+        top: 1px;
     }
 
     .case-study-info p{
         color: rgba(0,0,0,0.5);
+    }
+
+    .case-study-info a:hover{
+        cursor: pointer;
+
     }
 
     .image2{
@@ -100,6 +135,35 @@
 
     
 
+    .myname:hover{
+        animation-name: name-anim;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+
+    @keyframes name-anim {
+        0% {color: #5D02CC;}
+        20% {color: #F6326A;}
+        40% {color: #1CDCC9;}
+        60% {color: #0F85F7;}
+        80% {color: #F78558;}
+        100% {color: #F4D600;}
+    }
+
+    .navigation a:hover {
+        color: black;
+    }
+
+    .navigation a:nth-child(4){
+        padding-top: 1%;
+        float: right;
+    }
+    .navigation a:nth-child(5){
+        padding-top: 1%;
+        float: right;
+
+    }
     
 
     </style>
@@ -108,9 +172,11 @@
 
     <section class="banner">
         <nav class="navigation">
-            <a href="/html/" class="myname">Kaypea</a> 
-            <a href="/css/">Projects</a> 
-            <a href="/js/">About</a> 
+            <a href="#" class="myname">Kaypea</a> 
+            <a href="#">Projects</a> 
+            <a href="#">About</a> 
+            <a href="https://dribbble.com/coffeeandbrushes">Dribble</a> 
+            <a href="https://www.linkedin.com/in/coffeeandbrushes/">LinkedIn</a>
         </nav>
         <header class="main-title">
             <h1>A Great designer is <br>always a good listener</h1>
@@ -131,11 +197,21 @@
                 The Body Issue is ESPN’s annual matchup of rising young athletes with photographers. Since 2008 it’s been responsible for some of the finest sports photography around. For the aggressively mobile-first 2017 edition, “Every Body Has a Story,” ESPN came to Ueno.
             </h3>
             <br>
-            <a>View case study</a>
+            <a>View case study 
+                <svg width="55px" height="11px" viewBox="0 0 75 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>Group 11</title>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                    <g id="Group-11" transform="translate(3.000000, 3.000000)" stroke="#FF1E2E">
+                    <line x1="0" y1="12" x2="64.5" y2="12.5" id="Line-2" stroke-width="6"></line>
+                    <polyline id="Path-4" stroke-width="5" points="61 2.27373675e-13 68.6889116 12.5594459 61 25.1188918"></polyline>
+                    </g>
+                    </g>
+                </svg>
+            </a>
         </div>
     </section>
 
-    <!-- Case study 1 -->
+    <!-- Case study 2 -->
     <section class="case-study">
         <div class="case-study-thumbnail image2">
             
@@ -147,9 +223,60 @@
                 The Body Issue is ESPN’s annual matchup of rising young athletes with photographers. Since 2008 it’s been responsible for some of the finest sports photography around. For the aggressively mobile-first 2017 edition, “Every Body Has a Story,” ESPN came to Ueno.
             </h3>
             <br>
-            <a>View case study</a>
+            <a>View case study 
+                <svg width="55px" height="11px" viewBox="0 0 75 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>Group 11</title>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                    <g id="Group-11" transform="translate(3.000000, 3.000000)" stroke="#FF1E2E">
+                    <line x1="0" y1="12" x2="64.5" y2="12.5" id="Line-2" stroke-width="6"></line>
+                    <polyline id="Path-4" stroke-width="5" points="61 2.27373675e-13 68.6889116 12.5594459 61 25.1188918"></polyline>
+                    </g>
+                    </g>
+                </svg>
+            </a>
         </div>
     </section>
+
+    <!-- Case study 3 -->
+    <section class="case-study">
+        <div class="case-study-thumbnail image2">
+            
+        </div>
+        <div class="case-study-info">
+            <p>Wallpaper carousel to Glance</p>
+            <br>
+            <h3>
+                The Body Issue is ESPN’s annual matchup of rising young athletes with photographers. Since 2008 it’s been responsible for some of the finest sports photography around. For the aggressively mobile-first 2017 edition, “Every Body Has a Story,” ESPN came to Ueno.
+            </h3>
+            <br>
+            <a>View case study 
+                <svg width="55px" height="11px" viewBox="0 0 75 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>Group 11</title>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                    <g id="Group-11" transform="translate(3.000000, 3.000000)" stroke="#FF1E2E">
+                    <line x1="0" y1="12" x2="64.5" y2="12.5" id="Line-2" stroke-width="6"></line>
+                    <polyline id="Path-4" stroke-width="5" points="61 2.27373675e-13 68.6889116 12.5594459 61 25.1188918"></polyline>
+                    </g>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+
+    <section class="foot">
+        
+            "Watson, you can see everything. You fail, however, to reason from what you see."<br>
+            <span>- Sherlock Holmes </span>
+        
+    </section>
+
+
+
+    <script type="text/javascript">
+
+        
+    </script>
 
 </body>
 </html>
