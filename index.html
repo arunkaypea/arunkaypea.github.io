@@ -78,7 +78,7 @@
         margin-left: 10%;
         margin-right: 10%;
         text-align: center;
-        padding: 15% 5% 5% 5%;
+        padding: 5% 5% 5% 5%;
         font-size: 12px;
     }
 
@@ -126,11 +126,17 @@
         font-size: 26px !important;
         color: red;
         font-family: 'Galada', cursive !important;
-}
+    }
 
 
 
-
+    .go-to-top{
+        text-align: center;
+        font-size: 12px;
+        margin-top: 15%;
+        color: grey;
+        cursor: pointer;
+    }
 
 
     
@@ -263,6 +269,23 @@
         </div>
     </section>
 
+    <section class="go-to-top" id="got-top">
+        <svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Group</title>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Desktop-HD" transform="translate(-590.000000, -2560.000000)">
+                    <g id="Group" transform="translate(590.000000, 2560.000000)">
+                        <rect id="Rectangle" fill="#FF1E2E" x="0" y="0" width="26" height="26" rx="13"></rect>
+                        <polyline id="Path-4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" points="8 15 13.5 11 19 15"></polyline>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <br>
+        <a>Back to Top</a>
+
+    </section>
+
 
     <section class="foot">
         
@@ -274,6 +297,13 @@
 
 
     <script type="text/javascript">
+
+        var go_top = document.getElementById('got-top');
+
+        go_top.addEventListener("click", function(){
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        });
 
         
     </script>
