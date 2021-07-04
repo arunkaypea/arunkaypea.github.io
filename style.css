@@ -45,7 +45,7 @@ body{
 }
 
 .main-title{
-
+    
 }
 
 .main-title h1{
@@ -157,11 +157,11 @@ body{
 }
 
 .navigation a:nth-child(4){
-    padding-top: 1%;
+    padding-top: 2.5%;
     float: right;
 }
 .navigation a:nth-child(5){
-    padding-top: 1%;
+    padding-top: 2.5%;
     float: right;
 
 }
@@ -169,4 +169,8 @@ body{
 .active-menu{
     color: black !important;
     font-weight: 500;
+}
+
+.myname{
+    position: absolute;
 }
