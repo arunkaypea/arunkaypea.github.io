@@ -1,0 +1,172 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    
+}
+*{
+    /* border: 1px solid rgba(0,0,0,0.1); */
+    
+}
+.banner{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%
+
+}
+.navigation{
+    height: 100px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+    margin-right: 5%;
+    height: 100px;
+    font-weight: 400;
+    padding-top: 0px;
+    
+}
+
+
+
+
+
+
+.navigation a:first-child{
+    position: relative;
+    top: 15%;
+    
+}
+
+.navigation a:active{
+
+}
+
+.main-title{
+
+}
+
+.main-title h1{
+    font-size: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.main-title p{
+    font-size: 24px;
+    line-height: 50px;
+    color: rgba(0,0,0,0.6);
+    font-weight: 100;
+
+}
+
+.case-study-title{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.case-study{
+    margin: 10% 10% 5% 10%;
+    border-radius: 40px;
+    color: white;
+   
+    
+}
+
+.case-study-one{
+    margin-top: 3%;
+}
+
+.case-study-one{
+    
+    background-color: #FF6D6D;
+    height: 500px; 
+    background-image: url("/assets/case\ study\ one.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.case-study h1{
+    font-size: 2vw;
+    padding: 0% 50% 0% 5%;
+    line-height: 150%;
+}
+
+.case-study button{
+    margin-left: 5%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2%;
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.case-study h5{
+    margin-left: 5%;
+    padding-top: 10%;
+    letter-spacing: 0.5vw;
+    opacity: 0.7;
+}
+    
+
+
+
+
+
+
+
+
+.foot{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    font-size: 12px;
+}
+
+.foot span{
+    color: rgba(0,0,0,0.3);
+    margin-top: 10%;
+}
+
+
+
+.image2{
+    background-image: url("assets/thumbnail.png");
+}
+
+
+
+.go-to-top{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15%;
+    color: grey;
+    cursor: pointer;
+}
+
+
+
+.navigation a:hover {
+    color: black;
+}
+
+.navigation a:nth-child(4){
+    padding-top: 1%;
+    float: right;
+}
+.navigation a:nth-child(5){
+    padding-top: 1%;
+    float: right;
+
+}
+
+.active-menu{
+    color: black !important;
+    font-weight: 500;
+}
