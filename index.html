@@ -40,11 +40,11 @@
     <h2 class="case-study-title">Selected Works</h2>
 
     <!-- Case study 1 -->
-    <section class="case-study case-study-one">
+    <section class="case-study case-study-one" id="case-study-one">
         <h5>GAME CENTER</h5>
         <h1>Building a destination for games in Glance for deeper engagement and  scale</h1>
         <br>
-        <button>View case study</button>
+        <button id="case-study-one-btn">View case study</button>
     </section>
 
   
@@ -86,6 +86,14 @@
         go_top.addEventListener("click", function(){
             window.scrollTo({top: 0, behavior: 'smooth'});
         });
+
+        var case_study_one = document.getElementById('case-study-one');
+
+        case_study_one.addEventListener("click", function(){
+            window.open("/case study one.html");
+        });
+
+        
 
         
     </script>

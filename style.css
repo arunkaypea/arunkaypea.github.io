@@ -79,6 +79,11 @@ body{
     margin-top: 3%;
 }
 
+.case-study-one:hover{
+ 
+  cursor: pointer;
+}
+
 .case-study-one{
     
     background-color: #FF6D6D;
@@ -88,6 +93,8 @@ body{
     background-size: cover;
 
 }
+
+
 
 .case-study h1{
     font-size: 2vw;
@@ -104,6 +111,7 @@ body{
     border-radius: 50px;
     font-weight: 500;
     font-size: 1vw;
+    transition: 0.4s ease-in-out;
 }
 
 .case-study h5{
@@ -114,7 +122,10 @@ body{
 }
     
 
-
+.case-study-one:hover > #case-study-one-btn{
+    background-color: white;
+    color: black;
+}
 
 
 
@@ -173,4 +184,21 @@ body{
 
 .myname{
     position: absolute;
+}
+
+.game-center{
+    
+
+}
+
+
+
+
+
+.game-center img{
+    max-width: 100%;
+   height: auto;
+   display: block;
+  
+   
 }
