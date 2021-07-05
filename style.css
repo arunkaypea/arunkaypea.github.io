@@ -203,6 +203,43 @@ body{
     padding-top: 50%;
 }
 
+/*about style*/
+.about-section{
+    margin: 5% 10% 10% 10%;
+    display: flex;
+}
+
+
+.about-me{
+    padding-right: 5%;
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 10%;
+
+}
+
+.about-me a{
+    color: #FF1E2E;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.letter{
+    width: 100px;
+    height: auto;
+    
+}
+
+.my-image img{
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 0px;
+    -webkit-filter: grayscale(100%);  
+    filter: grayscale(100%);
+
+}
+
 @media screen and (max-width: 600px) {
   
     .mobile-fallback{
