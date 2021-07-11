@@ -80,15 +80,26 @@ body{
   cursor: pointer;
 }
 
-.case-study-one{
+#case-study-one{
     
-    background-color: #FF6D6D;
     height: 500px; 
     background-image: url("/assets/case\ study\ one.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
+#case-study-two{
+    height: 500px; 
+    background-image: url("/assets/case\ study\ two.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
 
 
 
@@ -189,6 +200,13 @@ body{
    display: block;
   
    
+}
+
+.pitara{
+    
+}
+
+.pitara-container{
 }
 
 .mobile-fallback{
