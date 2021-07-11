@@ -45,7 +45,7 @@ body{
 } */
 
 .main-title h1{
-    font-size: 80px;
+    font-size: 5vw;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
@@ -85,7 +85,8 @@ body{
     height: 500px; 
     background-image: url("/assets/case\ study\ one.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 500px;
+
 
 }
 
@@ -93,7 +94,7 @@ body{
     height: 500px; 
     background-image: url("/assets/case\ study\ two.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 500px;
 }
 
 
